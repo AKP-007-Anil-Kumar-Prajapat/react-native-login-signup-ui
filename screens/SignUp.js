@@ -4,7 +4,8 @@ import React from 'react';
 const SignUp = () => {
   return (
     <View>
-      <Text>SignUp</Text>
+      <Text style={styles.textTitle}>Welcome back</Text>
+      <Text style={styles.textBody}>Log in to your existant account</Text>
     </View>
   );
 };
