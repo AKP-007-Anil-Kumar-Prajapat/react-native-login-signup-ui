@@ -40,9 +40,9 @@ class Inputs extends Component {
 const styles = StyleSheet.create({
   container: {
     width: '90%',
-    height: 50,
+    height: 55,
     borderRadius: 5,
-    marginVertical: 20,
+    marginVertical: 10,
     borderWidth: 3.5,
   },
   inputContainer: {

@@ -4,11 +4,7 @@ import React from 'react';
 import Navigation from './Navigation';
 
 const App = () => {
-  return (
-    <View>
-      <Navigation />
-    </View>
-  );
+  return <Navigation />;
 };
 
 export default App;
