@@ -8,7 +8,16 @@ import Login from './screens/Login';
 const Stack = createStackNavigator();
 
 const Navigation = props => {
-  return <Login />;
+  return (
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName={'Login'}
+        screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Home" component={Login} />
+        <Stack.Screen name="SignUp" component={SignUp} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 };
 
 export default Navigation;
